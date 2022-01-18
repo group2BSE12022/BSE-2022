@@ -6,5 +6,5 @@ This repository is created to collect the assignment solutions for the subject S
 2. Allio Jedidiah
 3. NAMUGGA SHARIFAH
 4. Namayanja Florence
-5. Bwambale Thomas Muhiwa
+5. Ampe Sheenah
 6. Ahimbisibwe Orishaba K
