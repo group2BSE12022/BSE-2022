@@ -1,0 +1,6 @@
+c = float(input("initial amount of money: "))
+r = float(input("yearly rate of interest: "))
+t = float(input("number of years until maturation: "))
+n = float(input("number of times the interest is compounded: "))
+p = float(c*(int(1)+(r/n))**(t*n))
+print("Investment =",p)
