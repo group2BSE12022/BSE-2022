@@ -8,3 +8,4 @@ This repository is created to collect the assignment solutions for the subject S
 4. Namayanja Florence     2021/BSE/093/PS
 5. Ampe Sheenah           2021/BSE/019/PS
 6. Ahimbisibwe Orishaba K 2021/BSE/007/PS
+7. Meresi
