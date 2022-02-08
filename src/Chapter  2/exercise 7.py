@@ -36,6 +36,6 @@ else:
     print( 0 , "nickels")
 y= y % 0.05
 if y>=0.01:
-    print( int(y//0.01) ,"pennies")
+    print(("{:.2f}".format(float(y//0.01))) ,"pennies")
 else:
     print( 0 , "pennies")

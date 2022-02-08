@@ -17,5 +17,5 @@ g = e**2
 h = f**2
 #Add the values
 i = g+h
-#Square root of answer
+#Square root of answe
 print (math.sqrt(i) , "cm")
