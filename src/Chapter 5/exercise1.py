@@ -11,4 +11,3 @@ while True:
         average = total / count
     except:
         print ("Ivalid input, try numeric characters")
-print (total, count, average)

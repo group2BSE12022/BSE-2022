@@ -1,15 +1,23 @@
-Max = 0
-Min = None
+Numbs = []
 while True:
-    Numb = input ("Enter Number: ")
-    if Numb.lower() == "done":
+    Ng = input("Enter Numbers or done: ")
+    if len(Ng) == 0:
+        print("Invalid data")
+    elif Ng.lower() == "done":
         break
+
     try:
-        nb = float (Numb)
-        if nb > Max:
-            Max = nb
-        elif nb is None or nb < Min:
-            Min = nb
+        Nga = float(Ng)
+        Numbs.append(Nga)
     except:
-        print ("Invalid input")
-print ("Max",Max, "Min:",Min)
+        print("Invalid data Type")
+
+Max= None
+Min = None
+for i in Numbs:
+    if(Max is None or i > Max):
+        Max = i
+    if(Min is None or i < Min):
+        Min = i
+print("Maximum:", Max,"Minimum:", Min)
+
